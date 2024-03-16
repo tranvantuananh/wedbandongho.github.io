@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFE3CA;
+}
+
+header img {
+    width:50px;
+    height:50px;
+  
+}
+.banner img{
+    width: 1518px;
+    height: 250px;
+  }
+
+.menu {
+    float: right;
+    padding: 10px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.menu ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+
+.search {
+    float: right;
+    padding: 10px;
+}
+
+.search input {
+    width: 200px;
+    padding: 10px;
+    border: 1px
+}
+    section.product-list {
+        margin: 20px auto;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 98%; 
+    }
+    
+     h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    section.product ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    section.product ul li {
+        display: inline-block;
+        margin: 0 10px 20px;
+        width: 23%; 
+        text-align: center;
+        vertical-align: top;
+    }
+    
+    section.product ul li a {
+        text-decoration: none;
+        color: #000;
+    }
+    
+    section.product ul li img {
+        width: 80%;
+        height: 355px; 
+        margin-bottom: 10px;
+        border-radius: 10px;
+        border: 2px solid black;
+    }
+    
+    section.product ul li h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    section.product ul li p {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    
+    section.product ul li span.discount {
+        background-color: #b81515;
+        color: #fff;
+        padding: 3px 5px;
+        border-radius: 5px;
+    }
+    
+     
+      .copyright {
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+      }
+      
+      .copyright p {
+        margin-bottom: 5px;
+      }
